@@ -1,0 +1,75 @@
+html{
+    width: 100%;
+    height: 100%;  
+}
+.h1{
+font-size: 20px;
+}
+.form { 
+width: 280px; 
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white; 
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(../src/league-of-legends.jpg);
+    background-size: cover;
+}
+
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;    
+}
+.shop_name{
+    color: white;
+    float: left;
+    font-size: 40px;
+}
+.textbox{
+    width: 100%;   
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 2px solid white;
+}
+#nom::placeholder{
+    color: white;
+}
+#prenom::placeholder{
+    color: white;
+}
+#mail::placeholder{
+    color: white;
+}
+#age::placeholder{
+    color: white;
+}
+#password::placeholder{
+    color: white;
+}
+.btn{
+    width: 100%;
+    background: none;
+    border: 2px solid white;
+    color: white;
+    padding: 5px;
+}
+.link a{
+    color: white;
+    text-decoration: none;
+}
